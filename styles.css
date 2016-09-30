@@ -1,3 +1,50 @@
 body{
-	background: blue;
+	margin:50px 5px 15px 20px;
+	background-size: 200px 200px;
+	background-position: right top;
+	background-repeat:no-repeat;
+	background-image: url("LukecageBG.jpg");
+ 	
+	
+}
+fieldset{
+	padding: 2px;
+	border:	2px hidden;
+
+}
+p{
+	
+	color:blue;
+}
+
+h3{
+	text-align: center;
+}
+img{
+	margin-left: 20cm;
+}
+label{
+	font-family: "verdana";
+}
+.bolder{
+	text-shadow: 2px 2px #ff0000;
+
+}
+#shadows{
+	text-shadow: 2px 2px blue;
+}
+/* unvisited link */
+a:link {
+    color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+    color: #00FF00;
+
+}
+@media screen and (max-width: 500px) {
+  img{
+	margin-left: 2cm;
+}
 }
